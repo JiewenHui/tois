@@ -1,0 +1,16 @@
+import sys
+import os
+import subprocess
+import time
+batch_size = [512,256,128,64]
+dropout_keep_probs=[0.4,0.5]
+learning_rate = [0.01,0.001,0.0001]
+#filter_sizes=['40','10','30']
+num_epoch = 50
+count = 0
+for batch in batch_size:
+	for dropout_keep_prob in dropout_keep_probs:
+		for rate in learning_rate:
+			print ('The ', count, 'excue\n')
+			count += 1
+			subprocess.call('python train.py --batch_size %d --dropout_keep_probs %f --learning_rate %f --num_epochs %d' % (batch,dropout_keep_prob,rate,num_epoch), shell = True)

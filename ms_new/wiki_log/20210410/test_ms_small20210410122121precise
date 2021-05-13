@@ -1,0 +1,11 @@
+num_filters: 40
+embedding_dim:  50
+dropout_keep_prob:  0.8
+l2_reg_lambda:  0.0001
+learning_rate:  0.0001
+batch_size:  16
+trainable:  True
+num_epochs:  5
+data:  ms_small
+
+num_params = 71866482

@@ -1,0 +1,21 @@
+num_filters: 80
+embedding_dim:  50
+dropout_keep_prob:  0.8
+l2_reg_lambda:  0.0
+learning_rate:  5e-05
+batch_size:  128
+trainable:  True
+num_epochs:  10
+data:  ms_small
+
+num_params = 382265112
+ 0:epoch: map_test 0.0987 mrr 0.1011   mrr@10_test 0.0872
+ 1:epoch: map_test 0.0739 mrr 0.0753   mrr@10_test 0.0611
+ 2:epoch: map_test 0.0578 mrr 0.0591   mrr@10_test 0.0455
+ 3:epoch: map_test 0.0524 mrr 0.0535   mrr@10_test 0.0401
+ 4:epoch: map_test 0.0464 mrr 0.0475   mrr@10_test 0.0340
+ 5:epoch: map_test 0.0482 mrr 0.0498   mrr@10_test 0.0361
+ 6:epoch: map_test 0.0458 mrr 0.0470   mrr@10_test 0.0339
+ 7:epoch: map_test 0.0448 mrr 0.0458   mrr@10_test 0.0331
+ 8:epoch: map_test 0.0513 mrr 0.0529   mrr@10_test 0.0397
+ 9:epoch: map_test 0.0522 mrr 0.0539   mrr@10_test 0.0409

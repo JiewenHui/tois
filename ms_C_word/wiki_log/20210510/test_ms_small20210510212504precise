@@ -1,0 +1,15 @@
+num_filters: 80
+embedding_dim:  50
+dropout_keep_prob:  0.8
+l2_reg_lambda:  0.0
+learning_rate:  0.0001
+batch_size:  64
+trainable:  True
+num_epochs:  8
+data:  ms_small
+
+num_params = 235473413
+ 0:epoch: map_test 0.1232 mrr 0.1263   mrr@10_test 0.1120
+ 1:epoch: map_test 0.1263 mrr 0.1291   mrr@10_test 0.1142
+ 2:epoch: map_test 0.1140 mrr 0.1164   mrr@10_test 0.1013
+ 3:epoch: map_test 0.1148 mrr 0.1177   mrr@10_test 0.1021

@@ -1,0 +1,13 @@
+num_filters: 80
+embedding_dim:  50
+dropout_keep_prob:  0.8
+l2_reg_lambda:  0.0
+learning_rate:  0.0001
+batch_size:  64
+trainable:  True
+num_epochs:  8
+data:  wiki
+
+num_params = 99678432
+ 0:epoch: map_test 0.4635 mrr 0.4713   mrr@10_test 0.4672
+ 1:epoch: map_test 0.4892 mrr 0.4933   mrr@10_test 0.4895
